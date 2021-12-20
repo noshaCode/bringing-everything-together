@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="This website is for Nuhago">
+    <meta name="keywords" content="travel, Amsterdam, hotels">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuha Go</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href='styles.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-dark text-white">
+    <!-- <button id="dark">Dark</button> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NuhaGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Contacts</a></li>
+                            <li><a class="dropdown-item" href="#">Book</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More Information</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Help</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <h4>NuhaGO</h4>
+        <p>
+            Advice and
+            <span id="make-red-only">
+                assistance
+            </span>
+
+            in case you like planning your trip yourself, and reservations through reputable travel
+            offices for specific days or destinations or if you like a planned and ready trip from beginning to end.
+            for more information <span><a href="./travel.webp">here</a></span>
+        </p>
+
+        <img src="./pic.jpeg">
+    </div>
+
+    <!-- </div>
+    <div lass="container">
+    <div class="col-sm">
+        <img src="./images/kuala-lumpur.jpeg">
+    </div>
+    <div class="col-sm">
+        <img src="./images/londen.jpeg">
+    </div>
+    <div class="col-sm">
+        <img src="./images/passport.jpeg">
+    </div>
+    <div class="col-sm">
+        <img src="./images/plane.jpeg">
+    </div>
+    <div class="col-sm">
+        <img src="./images/travel.webp">
+    </div>
+</div> -->
+    <div class="services-form">
+        <br>
+        <h4>Our Services</h4>
+        <ul>
+            <li>Arranging tours and excursions inside and outside Amsterdam</li>
+            <li>Book a hotel</li>
+            <li>Reception from the airport</li>
+            <li>Providing Arab or Malaysian drivers</li>
+            <li>Escort services for families on shopping tours</li>
+        </ul>
+
+        <form id="send-form">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" name="firstName" class="form-control">
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select name="country" class="form-select">
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Malaysian">Malaysian</option>
+                    <option value="London">London</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-check">
+                <label for="Casa" class="form-check-label">Casa Hotel</label>
+                <input type="radio" class="form-check-input" id="Casa" value="hotel" name="place">
+            </div>
+            <div class="form-check">
+                <label for="Marina" class="form-check-label">Marina Hotel</label>
+                <input type="radio" class="form-check-input" id="Marina" value="hotel" name="place">
+            </div>
+            <div class="form-check">
+                <label for="Grand" class="form-check-label">Grand Hotel</label>
+                <input type="radio" class="form-check-input" name="place" value="hotel" id="Grand">
+            </div>
+            <br>
+
+            <div class="form-check">
+                <label class="form-check-label" for="Out door">Out door</label>
+                <input class="form-check-input" type="checkbox" name="place">
+
+            </div>
+            <div class="form-check">
+
+                <label class="form-check-label" for="Indoor">Indoor</label>
+                <input class="form-check-input" type="checkbox" name="place">
+            </div>
+            <div class="col-12">
+                <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+            </div>
+        </form>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Months</th>
+                    <th>Contacts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January-March</td>
+
+                    <td>054263527</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script> -->
+
+
+    <!-- <script>
+        const darkButton = document.getElementById("dark");
+        darkButton.addEventListener('click', switchDark);
+
+        function switchDark(){
+            if (document.body.classList.contains('bg-dark')) {
+                document.body.classList.remove("bg-dark",'text-white');
+            } else {
+                document.body.classList.add("bg-dark",'text-white');
+            }
+        }
+
+    </script> -->
+<div id="images-loop"></div>
+<hr>
+
+    <div class="social-media">
+        <i class="pink bi-instagram"></i>
+        <i class="blue bi-facebook"></i>
+        <i class="yallow bi-snapchat"></i>
+    </div>
+    <br>
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+
+
+.container img{
+    width:100%
+}
+
+.services-form{
+    margin-left: 30px;
+   
+}
+
+.social-media{
+ width: 200px;
+ margin: 0 auto;
+ text-align: center;
+ word-spacing: 20px;
+}
+
+.yallow{
+    color:#f7f400;
+}
+
+.blue{
+color: rgb(26 115 235);
+}
+
+.pink{
+color: rgb(212 66 108);
+}
+
+#images-loop{
+    display: flex;
+    justify-content: center;
+   
+  
+}
+
+#images-loop img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    
+
+}
+
